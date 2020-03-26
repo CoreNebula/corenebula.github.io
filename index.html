@@ -2,6 +2,7 @@
 <html> <!--Check-->
 	<head>
 		<title>The Nebula</title>
+		<script src="main.js"></script>
 		<style>
 			A {
 				text-decoration:none;
@@ -47,10 +48,11 @@
 				cursor:pointer;
 			}
 		</style>
+		window.onload=sortTable;
 	</head>
 	<body>
 		<div class="left">
-			<table>
+			<table id="table1">
 				<tr>
 					<th onclick="location.href='games/themehotel.html'">Theme Hotel</th>
 				</tr>
