@@ -1,2 +1,0 @@
-# corenebula.github.io
-website
