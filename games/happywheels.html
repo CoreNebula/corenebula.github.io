@@ -40,7 +40,35 @@
 		<a href="../index.html"><div align="center"><h1>The Nebula</h1></div></a>
 		<img src="../nebulaman.png" style="width:25%;heigt:30%" class="center">
     		<h2>Happy Wheels</h2>
-		<object class="center" width="900" height="500" id="game_div" type="application/x-shockwave-flash" data="http://swf.totaljerkface.com/hw_preloader_bf.swf" style="visibility: visible;"><param name="menu" value="false"><param name="bgcolor" value="#3d88c7"><param name="allowscriptaccess" value="always"><param name="allowFullScreenInteractive" value="true"><param name="flashvars" value="session=c5e04ea69c1fae8ba454f686ad7b1e00&amp;file=http://swf.totaljerkface.com/game_e_v1_87_i.swf"></object>
+		<div id="body">
+
+
+        			<script type="text/javascript">
+
+            			var flashvars = {
+                
+                		session:"c5e04ea69c1fae8ba454f686ad7b1e00",
+               			file:"http://swf.totaljerkface.com/game_e_v1_87_i.swf"
+                
+           			};
+
+           	 		var params = {
+                		menu: "false",
+                		bgcolor: "#3d88c7",
+                		allowscriptaccess: "always",
+           		   	allowFullScreenInteractive: "true"
+    			        };
+
+            			var path = "http://swf.totaljerkface.com/";
+            			var expInstall = path + "expressInstall.swf";
+           			var preloader = path + ((self == top) ? "hw_preloader_bf.swf" : "hw_demo.swf");
+            			swfobject.embedSWF(preloader, "game_div", "900", "500",  "10.0.0", expInstall, flashvars, params);
+     			 </script>
+
+
+       			 <object width="900" height="500" id="game_div" type="application/x-shockwave-flash" data="http://swf.totaljerkface.com/hw_preloader_bf.swf" style="visibility: visible;"><param name="menu" value="false"><param name="bgcolor" value="#3d88c7"><param name="allowscriptaccess" value="always"><param name="allowFullScreenInteractive" value="true"><param name="flashvars" value="session=c5e04ea69c1fae8ba454f686ad7b1e00&amp;file=http://swf.totaljerkface.com/game_e_v1_87_i.swf"></object>
+			
+   		 </div>
 	</body>
 </html>
 
