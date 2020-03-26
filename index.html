@@ -26,9 +26,13 @@
 			}
 			.center {
 				display:block;
-				margin-right:auto;
-				margin-left:auto;
+				margin:auto;
+				float:middle;
 				
+			}
+			.left {
+				display:block;
+				float:left
 			}
 			table, tr, th {
 				text-align:left;
@@ -41,28 +45,21 @@
 			th {
 				color:darkblue
 			}
-			#table1 {
-				display:block;
-			}
-			#pic1 {
-				display:block;
-				margin:auto;
-			}
 		</style>
 	</head>
 	<body>
 		<h1 align="center">The Nebula</h1>
-		<div id="table1">
+		<div class="left">
 		<table>
 			<tr>
 				<a href="games/themehotel.html"><th>Theme Hotel</th></a>
 			</tr>
 			<tr>
-				<a href="games/supermarioflash.html"><th>Super Mario Flash</th></a>
+				<div href="games/supermarioflash.html"><th>Super Mario Flash</th></div>
 			</tr>
 		</table>
 		</div>
-		<div id="pic1">
+		<div class="center">
 		<img src="nebulaman.png" style="width:50%;heigt:55%">
 		</div>
 		
