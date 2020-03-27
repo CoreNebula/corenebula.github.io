@@ -22,9 +22,10 @@
 	font-family:Spartan;
 	src:url(fonts/Spantaran-GE2D.ttf);
 }
-//	^^^^	Fonts	^^^^
+/*	^^^^	Fonts	^^^^	*/
 body {  
 	background:linear-gradient(to right, purple, #7300b5);
+	/*background-image:url(nebula.png);*/
 	background-size:auto;
 	background-repeat:no-repeat;
 	background-position:center;
