@@ -70,7 +70,7 @@ table, tr, th {
 th {
 	color:black;
 	cursor:pointer;
-	font-size:24;
+	font-size:150%;
 }
 #bannerDiv {
 	background:linear-gradient(to right, #07008a00, #07008a, #07008a, #07008a00);
