@@ -1,18 +1,31 @@
 @font-face {
 	font-family:Chopstic;
-	src:url(Chopsic-K6Dp.ttf)
+	src:url(fonts/Chopsic-K6Dp.ttf)
 }
 @font-face {
 	font-family:Nebula;
-	src:url(SheepingCats-929Z.ttf);
+	src:url(fonts/SheepingCats-929Z.ttf);
 }
 @font-face {
 	font-family:NebulaS;
-	src:url(SheepingCatsStraight-lrlZ.ttf);
-}	
+	src:url(fonts/SheepingCatsStraight-lrlZ.ttf);
+}
+@font-face {
+	font-family:Azonix;
+	src:url(fonts/Azonix-1VB0.otf);
+}
+@font-face {
+	font-family:Moon;
+	src:url(fonts/MoongladeDemoBold-jOzM.ttf);
+}
+@font-face {
+	font-family:Spartan;
+	src:url(fonts/Spantaran-GE2D.ttf);
+}
+//	^^^^	Fonts	^^^^
 body {  
 	background:linear-gradient(to right, purple, #7300b5);
-	<!--background-image:url('nebula.png');-->
+	/*background-image:url('nebula.png');*/
 	background-size:auto;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -21,7 +34,7 @@ h1 {
 	background:linear-gradient(to right, #6613ba, #695eff);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
-	font-family:Nebula;
+	font-family:Azonix;
 	font-size:350%;
 	padding:0px;
 	transform:scale(1,1);				
@@ -31,7 +44,7 @@ h2 {
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	text-align:center;
-	font-family:NebulaS;
+	font-family:Moon;
 }
 .center {
 	margin:auto;
@@ -48,7 +61,7 @@ table, tr, th {
 	border:1px solid black;
 	border-collapse:collapse;
 	background:linear-gradient(to right, #7300b5, purple);
-	font-family:courier;
+	font-family:Spartan;
 }
 th {
 	color:black;
