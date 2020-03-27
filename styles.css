@@ -30,6 +30,9 @@ body {
 	background-repeat:no-repeat;
 	background-position:center;
 }
+a {
+	text-decoration:none;
+}
 h1 {
 	background:linear-gradient(to right, #6613ba, #695eff);
 	-webkit-background-clip:text;
