@@ -1,66 +1,61 @@
 @font-face {
-				font-family:Chopstic;
-				src:url(Chopsic-K6Dp.ttf)
-			}
-			@font-face {
-				font-family:Nebula;
-				src:url(SheepingCats-929Z.ttf);
-			}
-			@font-face {
-				font-family:NebulaS;
-				src:url(SheepingCatsStraight-lrlZ.ttf);
-			}	
-			A {
-				text-decoration:none;
-			}
-			body {  
-				background:linear-gradient(to right, purple, #7300b5);
-				<!--background-image:url('nebula.png');-->
-				background-size:auto;
-				background-repeat:no-repeat;
-				background-position:center;
-			}
-			h1 {
-				background:linear-gradient(to right, #6613ba, #695eff);
-				-webkit-background-clip:text;
-				-webkit-text-fill-color:transparent;
-				font-family:Nebula;
-				font-size:350%;
-				padding:0px;
-				transform:scale(1,1);				
-			}
-			h2 {
-				background:linear-gradient(to right, #6613ba, #695eff);
-				-webkit-background-clip:text;
-				-webkit-text-fill-color:transparent;
-				text-align:center;
-				font-family:NebulaS;
-			}
-			.center {
-				margin:auto;
-				width:50%;
-				text-align:center;
-				
-			}
-			.left {
-				display:block;
-				float:left;
-			}
-			table, tr, th {
-				text-align:left;
-				border-padding:4px;
-				border:1px solid black;
-				border-collapse:collapse;
-				background:linear-gradient(to right, #7300b5, purple);
-				font-family:courier;
-				
-			}
-			th {
-				color:black;
-				cursor:pointer;
-			}
-			#bannerDiv {
-				background:linear-gradient(to right, #07008a00, #07008a, #07008a, #07008a00);
-				magin:auto;
-				width:50%;
-			}
+	font-family:Chopstic;
+	src:url(Chopsic-K6Dp.ttf)
+}
+@font-face {
+	font-family:Nebula;
+	src:url(SheepingCats-929Z.ttf);
+}
+@font-face {
+	font-family:NebulaS;
+	src:url(SheepingCatsStraight-lrlZ.ttf);
+}	
+body {  
+	background:linear-gradient(to right, purple, #7300b5);
+	<!--background-image:url('nebula.png');-->
+	background-size:auto;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+h1 {
+	background:linear-gradient(to right, #6613ba, #695eff);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	font-family:Nebula;
+	font-size:350%;
+	padding:0px;
+	transform:scale(1,1);				
+}
+h2 {
+	background:linear-gradient(to right, #6613ba, #695eff);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	text-align:center;
+	font-family:NebulaS;
+}
+.center {
+	margin:auto;
+	width:50%;
+	text-align:center;
+}
+.left {
+	display:block;
+	float:left;
+}
+table, tr, th {
+	text-align:left;
+	border-padding:4px;
+	border:1px solid black;
+	border-collapse:collapse;
+	background:linear-gradient(to right, #7300b5, purple);
+	font-family:courier;
+}
+th {
+	color:black;
+	cursor:pointer;
+}
+#bannerDiv {
+	background:linear-gradient(to right, #07008a00, #07008a, #07008a, #07008a00);
+	magin:auto;
+	width:50%;
+}
