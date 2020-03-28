@@ -1,26 +1,26 @@
 @font-face {
 	font-family:Chopstic;
-	src:url(fonts/Chopsic-K6Dp.ttf)
+	src:url(./fonts/Chopsic-K6Dp.ttf)
 }
 @font-face {
 	font-family:Nebula;
-	src:url(fonts/SheepingCats-929Z.ttf);
+	src:url(./fonts/SheepingCats-929Z.ttf);
 }
 @font-face {
 	font-family:NebulaS;
-	src:url(fonts/SheepingCatsStraight-lrlZ.ttf);
+	src:url(./fonts/SheepingCatsStraight-lrlZ.ttf);
 }
 @font-face {
 	font-family:Azonix;
-	src:url(fonts/Azonix-1VB0.otf);
+	src:url(./fonts/Azonix-1VB0.otf);
 }
 @font-face {
 	font-family:Moon;
-	src:url(fonts/MoongladeDemoBold-jOzM.ttf);
+	src:url(./fonts/MoongladeDemoBold-jOzM.ttf);
 }
 @font-face {
 	font-family:Spartan;
-	src:url(fonts/Spantaran-GE2D.ttf);
+	src:url(./fonts/Spantaran-GE2D.ttf);
 }
 /*	^^^^	Fonts	^^^^	*/
 body {  
