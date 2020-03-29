@@ -70,13 +70,6 @@ th {
 	cursor:pointer;
 	font-size:150%;
 }
-#bannerDiv {
-	background:linear-gradient(to right, #07008a00, #07008a, #07008a, #07008a00);
-	magin:auto;
-	width:50%;
-	text-align:center;
-	padding:1px;
-}
 .overlay {
 	background:rgba(51, 55, 69, 0.80);
 	top:0;
