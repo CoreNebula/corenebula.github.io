@@ -103,3 +103,13 @@ th {
 	text-align:center;
 	padding:1px;
 }
+li:hover {
+	animation-name:offWhiteGlow;
+	animation-duration:2s;
+	animation-timing-function:ease-in-out;
+	animation-fill-mode:forward;
+}
+@keyframes offWhiteGlow {
+	from {text-shadow: ;}
+	to {text-shadow:0px 0px 4px lightgray;}
+}
