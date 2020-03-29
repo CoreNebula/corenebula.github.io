@@ -50,7 +50,7 @@ h2 {
 	font-family:Moon;
 }
 .center {
-	display:block;
+	display:inline-block;
 	margin:auto;
 	width:50%;
 	text-align:center;
@@ -71,9 +71,9 @@ h3 {
 li {
 	text-align:left;
 	font-family:Montserrat;
-	font-size:200%;
+	font-size:150%;
 	color:lightgray;
-	padding:2px;
+	padding-bottom:5px;
 }
 ul {
 	list-style:none;
