@@ -48,7 +48,7 @@ h2 {
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	text-align:center;
-	font-family:Moon;
+	font-family:Montserrat;
 }
 .center {
 	display:block;
@@ -61,7 +61,9 @@ h2 {
 	float:left;
 	width:25%;
 	text-align:left;
-	top:0;
+	margin-top:0;
+	top: 0;
+    	left: 0;
 }
 h3 {
 	text-align:left;
@@ -74,7 +76,7 @@ li {
 	font-family:Montserrat;
 	font-size:150%;
 	color:lightgray;
-	padding-bottom:5px;
+	padding-bottom:10px;
 }
 ul {
 	list-style:none;
