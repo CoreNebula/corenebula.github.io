@@ -99,6 +99,9 @@ img {
 	white-space:nowrap;
 	cursor:pointer
 }
+.close-menu {
+	cursor:pointer;
+}
 .bannerDiv {
 	background:linear-gradient(to right, #07008a00, #07008a, #07008a, #07008a00);
 	magin:auto;
