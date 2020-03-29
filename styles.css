@@ -60,6 +60,7 @@ li {
 	font-size:150%;
 	color:lightgray;
 	padding-bottom:10px;
+	cursor:pointer;
 }
 ul {
 	list-style:none;
@@ -100,8 +101,6 @@ th {
 	display:inline-block;
 	margin:0px 0px;
 	white-space:nowrap;
-	padding:0 !important;
+	cursor:pointer
 }
-span {
-	white-space:nowrap;
-}
+
