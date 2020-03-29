@@ -62,10 +62,14 @@ h2 {
 	text-align:left;
 	vertical-align:middle;
 }
-li, h3 {
+li {
 	text-align:left;
 	font-family:Montserrat;
+	font size:200%;
 	color:lightgray;
+}
+ul {
+	list-style:none;
 }
 th {
 	color:black;
@@ -86,7 +90,6 @@ th {
 	opacity:0;
 	visibility:hidden;
 	overflow:hidden;
- 	list-style:none;
 	
 }
 .overlay.open {
