@@ -67,6 +67,7 @@ h3 {
 	font-family:Montserrat;
 	font-size:200%;
 	color:lightgray;
+	float:left;
 }
 li {
 	text-align:left;
