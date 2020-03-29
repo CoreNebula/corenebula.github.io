@@ -56,11 +56,10 @@ h2 {
 	text-align:center;
 }
 .left {
-	display:block;
-	margin-left:0;
+	display:inline-block;
+	float:left;
 	width:25%;
 	text-align:left;
-	vertical-align:middle;
 }
 h3 {
 	text-align:left;
@@ -112,5 +111,5 @@ th {
     	left: 0;
 }
 .openmenu {
-	display:inline;
+	display:inline-block;
 }
