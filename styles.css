@@ -101,7 +101,6 @@ th {
 	left:0;
 	opacity:0;
 	visibility:hidden;
-	overflow:hidden;
 	position:fixed;
 	overflow-y:auto;
 }
