@@ -57,7 +57,7 @@ h2 {
 }
 .left {
 	display:block;
-	float:left;
+	margin-left:0;
 	width:25%;
 }
 table, tr, th {
