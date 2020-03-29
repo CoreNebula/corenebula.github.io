@@ -58,6 +58,7 @@ h2 {
 .left {
 	display:block;
 	float:left;
+	width:25%;
 }
 table, tr, th {
 	text-align:left;
@@ -78,4 +79,16 @@ th {
 	width:50%;
 	text-align:center;
 	padding:1px;
+}
+.overlay {
+  background:rgba(51, 55, 69, 0.80);
+  top:0;
+  left:0;
+  opacity:0;
+  visibility:hidden;
+  overflow:hidden;
+}
+.overlay.open {
+  opacity: 1;
+  visibility: visible;
 }
