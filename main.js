@@ -7,7 +7,7 @@ function sortList() {
   while (switching) {
     // Start by saying: no switching is done:
     switching = false;
-    b = list.getElementsByTagName("li");
+    b = list.getElementsByTagName("LI");
     // Loop through all list items:
     for (i = 1; i < (b.length - 1); i++) {
       // Start by saying there should be no switching:
