@@ -70,6 +70,9 @@ th {
 	cursor:pointer;
 	font-size:150%;
 }
+img {
+	vertical-align:middle;
+}
 .overlay {
 	background:rgba(51, 55, 69, 0.80);
 	top:0;
