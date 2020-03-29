@@ -119,7 +119,7 @@ th {
 	display:inline-block;
 	margin:0;
 	white-space:nowrap;
-	padding:0;
+	padding:0 !important;
 }
 span {
 	white-space:nowrap;
