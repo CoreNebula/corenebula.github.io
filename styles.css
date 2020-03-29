@@ -71,7 +71,7 @@ th {
 	font-size:150%;
 }
 img {
-	vertical-align:middle;
+	vertical-align:sub;
 }
 .overlay {
 	background:rgba(51, 55, 69, 0.80);
