@@ -65,6 +65,7 @@ h2 {
 li, h3 {
 	text-align:left;
 	font-family:Montserrat;
+	color:lightgray;
 }
 th {
 	color:black;
@@ -79,16 +80,18 @@ th {
 	padding:1px;
 }
 .overlay {
-  background:rgba(51, 55, 69, 0.80);
-  top:0;
-  left:0;
-  opacity:0;
-  visibility:hidden;
-  overflow:hidden;
+	background:rgba(51, 55, 69, 0.80);
+	top:0;
+	left:0;
+	opacity:0;
+	visibility:hidden;
+	overflow:hidden;
+ 	list-style:none;
+	
 }
 .overlay.open {
-  opacity: 1;
-  visibility: visible;
+	opacity: 1;
+	visibility: visible;
 }
 .menu {
 	width:5px;
@@ -96,7 +99,6 @@ th {
 	position: absolute;
     	top: 0;
     	left: 0;
-	list-style:none;
 }
 .openmenu {
 	display:inline;
