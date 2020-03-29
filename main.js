@@ -9,7 +9,7 @@ function sortList() {
     switching = false;
     b = list.getElementsByTagName("LI");
     // Loop through all list items:
-    for (i = 0; i < (b.length - 1); i++) {
+    for (i = 1; i < (b.length - 1); i++) {
       // Start by saying there should be no switching:
       shouldSwitch = false;
       /* Check if the next item should
