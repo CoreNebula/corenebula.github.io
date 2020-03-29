@@ -62,11 +62,18 @@ h2 {
 	text-align:left;
 	vertical-align:middle;
 }
+h3 {
+	text-align:left;
+	font-family:Montserrat;
+	font-size:200%;
+	color:lightgray;
+}
 li {
 	text-align:left;
 	font-family:Montserrat;
-	font size:200%;
+	font-size:200%;
 	color:lightgray;
+	padding:2px;
 }
 ul {
 	list-style:none;
@@ -91,7 +98,7 @@ th {
 	visibility:hidden;
 	overflow:hidden;
 	position:fixed;
-	
+	overflow-y:auto;
 }
 .overlay.open {
 	opacity: 1;
