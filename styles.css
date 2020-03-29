@@ -117,7 +117,9 @@ th {
 }
 .open-menu {
 	display:inline-block;
+	margin:0;
 	white-space:nowrap;
+	padding:0;
 }
 span {
 	white-space:nowrap;
