@@ -97,6 +97,7 @@ th {
 }
 .overlay {
 	background:rgba(51, 55, 69, 0.80);
+	background-size:100% 100%;
 	top:0;
 	left:0;
 	opacity:0;
