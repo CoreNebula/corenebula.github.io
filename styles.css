@@ -114,3 +114,6 @@ th {
 .openmenu {
 	display:inline-block;
 }
+span {
+	white-space:nowrap;
+}
