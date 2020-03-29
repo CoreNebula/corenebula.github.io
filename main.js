@@ -56,12 +56,12 @@ function includeHTML() {
     }
   }
 }
-$(document).ready(function() {
-  $('.open-menu').on('click', function() {
-     $('.overlay').addClass('open');
+document.ready=function() {
+  .open-menu.onclick=function() {
+     .overlay.addClass('open');
   });
 
-  $('.close-menu').on('click', function() {
-    $('.overlay').removeClass('open');
+  .close-menu.onclick=function() {
+    .overlay.removeClass('open');
   });
 });
