@@ -57,7 +57,7 @@ h2 {
 }
 .left {
 	display:block;
-	margin-left:0;
+	float:left;
 	width:25%;
 	text-align:left;
 }
