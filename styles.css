@@ -90,6 +90,7 @@ th {
 	opacity:0;
 	visibility:hidden;
 	overflow:hidden;
+	position:fixed;
 	
 }
 .overlay.open {
