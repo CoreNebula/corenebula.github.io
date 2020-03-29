@@ -56,12 +56,4 @@ function includeHTML() {
     }
   }
 }
-document.ready=function() {
-  .open-menu.onclick=function() {
-     .overlay.addClass('open');
-  });
 
-  .close-menu.onclick=function() {
-    .overlay.removeClass('open');
-  });
-});
