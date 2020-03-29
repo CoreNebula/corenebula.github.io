@@ -57,17 +57,13 @@ h2 {
 }
 .left {
 	display:block;
-	float:left;
+	margin-left;0;
 	width:25%;
 	text-align:left;
 	vertical-align:middle;
 }
-table, tr, th {
+li, h3 {
 	text-align:left;
-	border-padding:4px;
-	border:1px solid black;
-	border-collapse:collapse;
-	background:linear-gradient(to right, #7300b5, purple);
 	font-family:Montserrat;
 }
 th {
@@ -101,4 +97,7 @@ th {
     	top: 0;
     	left: 0;
 	list-style:none;
+}
+.openmenu {
+	display:inline;
 }
