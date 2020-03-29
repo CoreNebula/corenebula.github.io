@@ -50,7 +50,7 @@ h2 {
 	font-family:Moon;
 }
 .center {
-	display:inline-block;
+	display:block;
 	margin:auto;
 	width:50%;
 	text-align:center;
