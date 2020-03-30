@@ -112,7 +112,7 @@ img {
 	text-align:center;
 	padding:1px;
 	border-radius:60px;
-	filter:blur(13px);
+
 }
 li:hover {
 	animation-name:offWhiteGlow;
@@ -120,6 +120,7 @@ li:hover {
 	animation-timing-function:ease-in-out;
 	animation-fill-mode:forwards;
 	animation-direction:alternate;
+	animation-iteration-count: 2;
 }
 .close-menu:hover {
 	animation-name:redGlow;
@@ -127,6 +128,7 @@ li:hover {
 	animation-timing-function:ease-in-out;
 	animation-fill-mode:forwards;
 	animation-direction:alternate;
+	animation-iteration-count: 2;
 }
 @keyframes offWhiteGlow {
 	from {text-shadow: ;font-size:150%;}
@@ -134,5 +136,5 @@ li:hover {
 }
 @keyframes redGlow {
 	from {filter: ;width:30px;}
-	to {filter:blur(25px);width:40px;}
+	to {filter:blur(5px);width:40px;}
 }
