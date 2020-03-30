@@ -119,12 +119,14 @@ li:hover {
 	animation-duration:.35s;
 	animation-timing-function:ease-in-out;
 	animation-fill-mode:forwards;
+	animation-direction:alternate;
 }
 .close-menu:hover {
 	animation-name:redGlow;
 	animation-duration:.35s;
 	animation-timing-function:ease-in-out;
 	animation-fill-mode:forwards;
+	animation-direction:alternate;
 }
 @keyframes offWhiteGlow {
 	from {text-shadow: ;font-size:150%;}
@@ -132,5 +134,5 @@ li:hover {
 }
 @keyframes redGlow {
 	from {filter: ;width:30px;}
-	to {filter:blur(13px);width:40px;}
+	to {filter:blur(25px);width:40px;}
 }
