@@ -9,17 +9,17 @@ $(document).ready(function() {
 });
 $(".close-menu").hover(
     function () {
-        $(this).removeClass('out').addClass('over');
+        $(".close-menu").removeClass('out').addClass('over');
     },
     function () {
-        $(this).removeClass('over').addClass('out');
+        $(".close-menu").removeClass('over').addClass('out');
     }
 );
 $("li").hover(
     function () {
-        $(this).removeClass('out').addClass('over');
+        $("li.hover").removeClass('out').addClass('over');
     },
     function () {
-        $(this).removeClass('over').addClass('out');
+        $("li.hover").removeClass('over').addClass('out');
     }
 );
