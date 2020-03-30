@@ -13,12 +13,9 @@ $(document).ready(function() {
           $(this).removeClass('over').addClass('out');}
   );
   $("li").hover(function () {
-          $(this).animate({
-                    fontSize:"175%"
-          },350,swing)},
+          $(this).toggleClass('over')
+  },
           function () {
-          $(this).animate({
-                    fontSize:"150%"
-          },350,swing);
+          $(this).toggleClass('over')
   });
 });
