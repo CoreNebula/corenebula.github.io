@@ -13,12 +13,10 @@ $(document).ready(function() {
   );
   $("li").hover(function () {
           $(this).animate({
-                    textShadow:"0px 0px 13px lightgray",
                     fontSize:"175%"
           },350,swing)},
           function () {
           $(this).animate({
-                    textShadow:"0px 0px 0px lightgray",
                     fontSize:"150%"
           },350,swing);
   });
