@@ -55,7 +55,6 @@ h3 {
 	margin:0px 0px;
 }
 li {
-	text-align:left;
 	font-family:Montserrat;
 	font-size:150%;
 	color:lightgray;
@@ -121,19 +120,33 @@ img {
 	border-radius:60px;
 
 }
-li:hover {
+li.over {
 	animation-name:offWhiteGlow;
 	animation-duration:.35s;
 	animation-timing-function:ease-in-out;
 	animation-fill-mode:forwards;
 	animation-direction:alternate;
 }
-.close-menu:hover {
+li.out {
+	animation-name:offWhiteGlow;
+	animation-duration:.35s;
+	animation-timing-function:ease-in-out;
+	animation-fill-mode:forwards;
+	animation-direction:reverse;
+}
+.close-menu.over {
 	animation-name:redGlow;
 	animation-duration:.35s;
 	animation-timing-function:ease-in-out;
 	animation-fill-mode:forwards;
 	animation-direction:alternate;
+}
+.close-menu.out {
+	animation-name:redGlow;
+	animation-duration:.35s;
+	animation-timing-function:ease-in-out;
+	animation-fill-mode:forwards;
+	animation-direction:reverse;
 }
 @keyframes offWhiteGlow {
 	from {text-shadow: ;font-size:150%;}
