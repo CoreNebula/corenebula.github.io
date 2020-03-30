@@ -8,14 +8,15 @@ $(document).ready(function() {
     $('.overlay').removeClass('open');
   });
   $(".close-menu").hover(function () {
-          $(this).removeClass('out').addClass('over');},
+     $(this).toggleClass('over')
+	},
   function () {
-          $(this).removeClass('over').addClass('out');}
-  );
+     $(this).toggleClass('over')
+	});
   $("li").hover(function () {
-          $(this).toggleClass('over')
+  	$(this).toggleClass('over')
   },
-          function () {
-          $(this).toggleClass('over')
+    function () {
+  		$(this).toggleClass('over')
   });
 });
