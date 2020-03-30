@@ -12,8 +12,14 @@ $(document).ready(function() {
           $(this).removeClass('over').addClass('out');}
   );
   $("li").hover(function () {
-          $(this).removeClass('out').addClass('over');},
+          $(this).animate({
+                    textShadow:"0px 0px 13px lightgray",
+                    fontSize:"175%"
+          },350,swing);
   function () {
-          $(this).removeClass('over').addClass('out');}
+          $(this).animate({
+                    textShadow:"0px 0px 0px lightgray",
+                    fontSize:"150%"
+          },350,swing);
   );
 });
