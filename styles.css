@@ -81,7 +81,7 @@ img {
 	height:100%;
 	opacity:0;
 	visibility:hidden;
-	position:absolute;
+	position:fixed;
 	overflow-y:auto;
 }
 .overlay.open {
