@@ -100,6 +100,10 @@ img {
     	top: 0;
     	left: 0;
 }
+#menu {
+	text-align:center;
+	
+}
 .open-menu {
 	display:inline-block;
 	margin:0px 0px;
@@ -146,5 +150,5 @@ li:hover {
 }
 @keyframes redGlow {
 	from {filter: ;width:30px;}
-	to {filter:blur(2px);width:40px;}
+	to {filter:blur(1px);width:35px;}
 }
