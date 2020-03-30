@@ -7,13 +7,13 @@ $(document).ready(function() {
     $('.overlay').removeClass('open');
   });
   $(".close-menu").hover(function () {
-          $(this).removeClass('out').addClass('over');
-  },function () {
-          $(this).removeClass('over').addClass('out');
-  });
+          $(this).removeClass('out').addClass('over');},
+  function () {
+          $(this).removeClass('over').addClass('out');}
+  );
   $("li").hover(function () {
-          $(this).removeClass('out').addClass('over');
-  },function () {
-          $(this).removeClass('over').addClass('out');
-  });
+          $(this).removeClass('out').addClass('over');},
+  function () {
+          $(this).removeClass('over').addClass('out');}
+  );
 });
