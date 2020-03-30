@@ -7,7 +7,7 @@ $(document).ready(function() {
     $('.overlay').removeClass('open');
   });
 });
-$(".close-menu").hover(
+$(".close-menu"):hover(
     function () {
         $(this).removeClass('out').addClass('over');
       console.log('Ayy!');
@@ -16,7 +16,7 @@ $(".close-menu").hover(
         $(this).removeClass('over').addClass('out');
     }
 );
-$("li").hover(
+$("li"):hover(
     function () {
         $(this).removeClass('out').addClass('over');
     },
