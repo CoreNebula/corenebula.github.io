@@ -10,6 +10,7 @@ $(document).ready(function() {
 $(".close-menu").hover(
     function () {
         $(".close-menu").removeClass('out').addClass('over');
+      console.log('Ayy!');
     },
     function () {
         $(".close-menu").removeClass('over').addClass('out');
