@@ -61,11 +61,6 @@ li {
 	color:lightgray;
 	padding-bottom:10px;
 	cursor:pointer;
-	animation-name:offWhiteGlow;
-	animation-duration:.35s;
-	animation-timing-function:ease-in-out;
-	animation-fill-mode:forwards;
-	animation-direction:reverse;
 }
 ul {
 	list-style:none;
@@ -115,11 +110,6 @@ img {
 	cursor:pointer;
 	top:20px;
 	left:20px;
-	animation-name:redGlow;
-	animation-duration:.35s;
-	animation-timing-function:ease-in-out;
-	animation-fill-mode:forwards;
-	animation-direction:reverse;
 }
 .bannerDiv {
 	background:linear-gradient(to right, #07008a00, #07008a, #07008a, #07008a00);
