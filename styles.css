@@ -129,7 +129,7 @@ li.over {
 	font-size:175%;
 }
 .close-menu.over {
-	filter:blur(1px);
+	filter:blur(.5px);
 	width:40px;
 }
 
