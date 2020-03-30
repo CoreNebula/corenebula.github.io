@@ -112,8 +112,8 @@ img {
 	cursor:pointer;
 	top:20px;
 	left:20px;
-	transition:text-shadow 0.35s ease-in-out;
-	transition:font-size 0.35s ease-in-out;
+	transition:filter 0.35s ease-in-out;
+	transition:width 0.35s ease-in-out;
 }
 .bannerDiv {
 	background:linear-gradient(to right, #07008a00, #07008a, #07008a, #07008a00);
