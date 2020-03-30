@@ -21,5 +21,5 @@ $(document).ready(function() {
                     textShadow:"0px 0px 0px lightgray",
                     fontSize:"150%"
           },350,swing);
-   })
+   });
 });
