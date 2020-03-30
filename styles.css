@@ -82,6 +82,8 @@ img {
 	background:rgba(51, 55, 69, 0.80);
 	top:0;
 	left:0;
+	width:100%;
+	height:100%;
 	opacity:0;
 	visibility:hidden;
 	position:absolute;
