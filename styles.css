@@ -76,9 +76,9 @@ img {
 	width:100%;
 	height:100%;
 	z-index:20;
-	opacity:1;
-	visibility:visible;
+	opacity:0;
 	position:absolute;
+	transition:top .5 ease-in-out;
 }
 .overlay.open {
 	opacity: 1;
