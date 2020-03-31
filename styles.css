@@ -90,6 +90,7 @@ img {
 .overlay.open {
 	opacity: 1;
 	visibility: visible;
+	top:0;
 }
 .menu {
 	width:5px;
