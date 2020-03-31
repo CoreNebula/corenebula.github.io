@@ -103,7 +103,6 @@ img {
 }
 .open-menu {
 	display:inline-block;
-	width:auto;
 	top: 8;
 	left: 8;
 	z-index:10;
