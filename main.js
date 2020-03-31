@@ -1,4 +1,5 @@
 function sortList() {
+  console.log('sortList run')
   var list, i, switching, b, shouldSwitch;
   list = document.getElementById("menu");
   switching = true;
@@ -26,6 +27,7 @@ function sortList() {
       and mark the switch as done: */
       b[i].parentNode.insertBefore(b[i + 1], b[i]);
       switching = true;
+      console.log(sortList completed)
     }
   }
 }
