@@ -39,7 +39,6 @@ h2 {
 .left {
 	display:inline-block;
 	float:left;
-	width:25%;
 	text-align:left;
 }
 h3 {
@@ -98,6 +97,7 @@ img {
 }
 .open-menu {
 	display:inline-block;
+	width:auto;
 	top: 8;
 	left: 8;
 	white-space:nowrap;
