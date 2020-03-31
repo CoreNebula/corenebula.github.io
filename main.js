@@ -33,6 +33,7 @@ function includeHTML(file) {
   var elmnt, xhttp;
   elmnt = getElementById("media-screen")
     if (file) {
+      console.log('check');
       xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {
         if (this.readyState == 4) {
@@ -40,6 +41,7 @@ function includeHTML(file) {
           if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
         }
       }
+      includeHTML();
       xhttp.open("GET", file, true);
       xhttp.send();
       return;
