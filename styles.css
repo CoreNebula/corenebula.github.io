@@ -23,6 +23,7 @@ h1 {
 	font-size:350%;
 	padding:0px;
 	top:8;
+	left:50%;
 	position:fixed;
 	transform:scale(1,1);				
 }
