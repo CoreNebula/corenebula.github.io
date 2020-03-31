@@ -1,10 +1,10 @@
 $(document).ready(function() {
 	
-  $('.open-menu').click(function() {
+  $('.open-menu').onclick(function() {
      $('.overlay').toggleClass('open');
   });
 
-  $('.close-menu').click(function() {
+  $('.close-menu').onclick(function() {
     $('.overlay').toggleClass('open');
   });
 	
