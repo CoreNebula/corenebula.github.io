@@ -48,6 +48,14 @@ h2 {
 	text-align:left;
 	width:auto;
 }
+.right {
+	width:80px;
+	display:inline-block;
+	float:right;
+	position:fixed;
+	top:8;
+	right:8;
+}
 .navbar {
 	background:rgba(51, 55, 69);
 	width:100%;
