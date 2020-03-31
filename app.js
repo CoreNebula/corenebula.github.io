@@ -1,10 +1,10 @@
 $(document).ready(function() {
-	sortList();	
-  $('.open-menu').on('click', function() {
+	
+  $('.open-menu').click(function() {
      $('.overlay').toggleClass('open');
   });
 
-  $('.close-menu').on('click', function() {
+  $('.close-menu').click(function() {
     $('.overlay').toggleClass('open');
   });
 	
