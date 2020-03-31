@@ -23,7 +23,8 @@ h1 {
 	font-size:350%;
 	text-align:center;
 	top:15px;
-	position:fixed;				
+	position:fixed;	
+	cursor:pointer;
 }
 h2 {
 	background:linear-gradient(to right, #6613ba, #695eff);
