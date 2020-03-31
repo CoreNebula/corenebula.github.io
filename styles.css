@@ -44,6 +44,11 @@ h2 {
 	text-align:left;
 	width:auto;
 }
+.navbar {
+	backgrond:rgba(51, 55, 69, 0.20);
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
 h3 {
 	text-align:left;
 	font-family:Montserrat;
