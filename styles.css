@@ -24,7 +24,7 @@ h1 {
 	text-align:center;
 	padding:5px;
 	top:8px;
-	position:fixed;				
+	position:relative;				
 }
 h2 {
 	background:linear-gradient(to right, #6613ba, #695eff);
