@@ -33,7 +33,7 @@ h2 {
 .center {
 	display:block;
 	margin:auto;
-	width:50%;
+	width:auto;
 	text-align:center;
 }
 .left {
@@ -60,6 +60,7 @@ li {
 }
 ul {
 	list-style:none;
+	margin-top:40px;
 }
 th {
 	color:black;
@@ -118,6 +119,7 @@ img {
 	left:5px;
 	position:fixed;
 	height:40px;
+	width:100%
 }
 .bannerDiv {
 	background:linear-gradient(to right, #07008a00, #07008a, #07008a, #07008a00);
