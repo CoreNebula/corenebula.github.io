@@ -87,7 +87,7 @@ img {
 	transition:top .5 ease-in-out;
 }
 .overlay.open {
-	opacity: 1;
+	opacity: 0;
 	visibility: visible;
 	top:0;
 }
