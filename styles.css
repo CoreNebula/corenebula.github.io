@@ -22,8 +22,8 @@ h1 {
 	font-family:Azonix;
 	font-size:350%;
 	padding:0px;
-	top:8
-	position:fixed
+	top:8;
+	position:fixed;
 	transform:scale(1,1);				
 }
 h2 {
