@@ -84,7 +84,6 @@ img {
 	opacity:1;
 	visibility:visible;
 	position:absolute;
-	transition:background 0.5s ease-in-out;
 }
 .overlay.open {
 	opacity: 1;
@@ -107,13 +106,20 @@ img {
 	margin:0px 0px;
 	white-space:nowrap;
 	cursor:pointer;
-	border-radius:20px;
+	border-radius:10px;
+	transition:background 0.35s ease-in-out;
+	position:fixed;
+	
 }
 .close-menu {
 	cursor:pointer;
 	margin:0px;
 	transition:margin 0.35s ease-in-out;
 	transition:width 0.35s ease-in-out;
+}
+.menu-head {
+	position:fixed;
+	height:40px;
 }
 .bannerDiv {
 	background:linear-gradient(to right, #07008a00, #07008a, #07008a, #07008a00);
