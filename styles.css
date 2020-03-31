@@ -111,7 +111,7 @@ img {
 .close-menu {
 	cursor:pointer;
 	margin:2.5px;
-	transition: width .35s ease-in-out, margin .35s ease-in-out;
+	transition: width .35s linear, margin .35s linear;
 }
 .menu-head {
 	top:5px;
