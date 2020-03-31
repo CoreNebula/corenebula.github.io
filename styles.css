@@ -47,7 +47,7 @@ h3 {
 	font-size:200%;
 	color:lightgray;
 	margin:0px 0px;
-	padding:0px 5px 5px;
+	padding:5px;
 }
 li {
 	font-family:Montserrat;
@@ -110,8 +110,8 @@ img {
 }
 .close-menu {
 	cursor:pointer;
-	margin:2.5px;
-	transition: width .35s linear, margin .35s linear;
+	margin:7.5px;
+	transition: transform .35s ease-in-out;
 }
 .menu-head {
 	top:5px;
@@ -133,8 +133,7 @@ li.over {
 	font-size:175%;
 }
 .close-menu.over {
-	width:44px;
-	margin:0px;
+	transform:scale(1.12820512821)
 }
 .open-menu.over {
 	background:rgba(51, 55, 69)
