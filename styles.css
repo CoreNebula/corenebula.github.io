@@ -22,9 +22,8 @@ h1 {
 	font-family:Azonix;
 	font-size:350%;
 	text-align:center;
-	padding:5px;
-	top:8px;
-	position:relative;				
+	top:100px;
+	position:fixed;				
 }
 h2 {
 	background:linear-gradient(to right, #6613ba, #695eff);
