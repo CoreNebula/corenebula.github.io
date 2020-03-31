@@ -83,13 +83,12 @@ img {
 	z-index:20;
 	opacity:0;
 	visibility:hidden;
-	position:absolute;
-	transition:top .5 ease-in-out;
+	position:fixed;
+	overflow-y:auto;
 }
 .overlay.open {
 	opacity: 1;
 	visibility: visible;
-	top:0;
 }
 .menu {
 	width:5px;
