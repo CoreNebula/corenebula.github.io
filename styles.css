@@ -24,7 +24,7 @@ h1 {
 	padding:0px;
 	top:8;
 	left:50%;
-	position:fixed;
+	position:absolute;
 	transform:scale(1,1);				
 }
 h2 {
@@ -43,12 +43,13 @@ h2 {
 }
 .left {
 	display:inline-block;
+	float:left;
 	position:fixed;
 	text-align:left;
 	width:auto;
 }
 .right {
-	width:80px;
+	width:auto;
 	display:inline-block;
 	float:right;
 	position:fixed;
@@ -58,7 +59,7 @@ h2 {
 .navbar {
 	background:rgba(51, 55, 69);
 	width:100%;
-	height:auto;
+	height:115px;
 	position:fixed;
 	top:0;
 	left:0;
