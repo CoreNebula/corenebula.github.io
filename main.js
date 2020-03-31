@@ -29,22 +29,20 @@ function sortList() {
     }
   }
 }
-function includeHTML(file) {
-  var elmnt, xhttp;
-  elmnt = document.getElementById("media-screen")
+function includeHTML(fname) {
+  var elmnt, xhttp, file;
+  file = fname;
+  elmnt = document.getElementById("media-screen");
   if (file) {
     console.log('check');
     xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
-      if (this.readyState == 4) {
-        if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-        if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+      if (this.readyState == 4 && this.status == 200) {
+        elmnt.innerHTML = this.responseText;
       }
     }
-    includeHTML();
     xhttp.open("GET", file, true);
     xhttp.send();
-    return;
   }  
 }
   
