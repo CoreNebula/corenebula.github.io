@@ -41,7 +41,7 @@ h2 {
 	display:inline-block;
 	float:left;
 	text-align:left;
-	width:25%;
+	width:auto;
 }
 h3 {
 	text-align:left;
@@ -57,14 +57,14 @@ li {
 	color:lightgray;
 	padding-bottom:10px;
 	cursor:pointer;
-	margin-left:auto;
-	margin-right:auto;
+	width:auto;
 	transition:text-shadow 0.35s ease-in-out;
 	transition:font-size 0.35s ease-in-out;
 }
 ul {
 	list-style:none;
 	margin-top:40px;
+	width:auto;
 }
 th {
 	color:black;
@@ -112,6 +112,7 @@ img {
 	border-radius:10px;
 	transition:background 0.35s ease-in-out;
 	position:relative;
+	width:auto;
 	
 }
 .close-menu {
