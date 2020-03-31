@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	
+	sortList();	
   $('.open-menu').on('click', function() {
      $('.overlay').toggleClass('open');
   });
