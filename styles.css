@@ -52,7 +52,7 @@ h2 {
 	width:auto;
 	display:inline-block;
 	float:right;
-	position:fixed;
+	position:relative;
 	top:8;
 	right:8;
 }
