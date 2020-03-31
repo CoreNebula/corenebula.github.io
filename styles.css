@@ -45,12 +45,13 @@ h2 {
 	width:auto;
 }
 .navbar {
-	background:rgba(51, 55, 69,.90);
+	background:rgba(51, 55, 69);
 	width:100%;
 	position:fixed;
 	top:0;
-	border-bottom-left-radius:10px;
-	border-bottom-right-radius:10px;
+	left:0;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
 }
 h3 {
 	text-align:left;
@@ -152,5 +153,5 @@ li.over {
 	transform:scale(1.5)
 }
 .open-menu.over {
-	background:rgba(51, 55, 69)
+	background:rgba(51, 55, 50)
 }
