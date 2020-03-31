@@ -110,7 +110,7 @@ img {
 	cursor:pointer;
 	border-radius:10px;
 	transition:background 0.35s ease-in-out;
-	position:absolute;
+	position:relative;
 	
 }
 .close-menu {
