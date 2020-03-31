@@ -76,7 +76,7 @@ img {
 }
 .overlay {
 	background:rgba(51, 55, 69, 0.80);
-	top:0;
+	top:-100%;
 	left:0;
 	width:100%;
 	height:100%;
@@ -85,6 +85,7 @@ img {
 	visibility:hidden;
 	position:fixed;
 	overflow-y:auto;
+	transition:background 0.5s ease-in-out;
 }
 .overlay.open {
 	opacity: 1;
@@ -129,7 +130,9 @@ li.over {
 	font-size:175%;
 }
 .close-menu.over {
-	filter:blur(.5px);
 	width:40px;
+	padding:0;
 }
-
+.open-menu.over {
+	background:rgba(51, 55, 69)
+}
