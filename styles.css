@@ -81,7 +81,8 @@ img {
 	width:100%;
 	height:100%;
 	z-index:20;
-	opacity:0;
+	opacity:1;
+	visibility:hidden;
 	position:absolute;
 	transition:top .5 ease-in-out;
 }
