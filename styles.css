@@ -41,6 +41,7 @@ h2 {
 	display:inline-block;
 	float:left;
 	text-align:left;
+	width:auto;
 }
 h3 {
 	text-align:left;
