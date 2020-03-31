@@ -10,7 +10,7 @@ html {
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-attachment:fixed;
-	overflow-y:auto;
+	overflow-y:hidden;
 }
 * {
 	text-decoration:none;
