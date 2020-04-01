@@ -97,7 +97,7 @@ th {
 	font-size:150%;
 }
 img {
-	vertical-align:0px;
+	vertical-align:baseline;
 }
 .overlay {
 	background:rgba(51, 55, 69, 0.80);
