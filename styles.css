@@ -177,12 +177,12 @@ img {
 	width:100%
 }
 .bannerDiv {
-	background:linear-gradient(to right, #07008a00, #07008a, #07008a, #07008a00);
+	background:rgba(51, 55, 69);
 	margin-bottom:8px;
 	width:75%;
 	text-align:center;
 	padding:1px;
-	border-radius:60px;
+	border-radius:20px;
 
 }
 li:hover {
