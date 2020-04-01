@@ -30,20 +30,20 @@ function sortList() {
   }
 }
 function includeHTML(file) {
-  var elmnt, xhttp;
   location.href = "./index.html"
-  elmnt = document.getElementById("media-screen");
-  if (file) {
-    console.log('check');
-    xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        elmnt.innerHTML = this.responseText;
+  document.addEventListener('DOMContentLoaded', function(){
+    var elmnt, xhttp;
+    elmnt = document.getElementById("media-screen");
+    if (file) {
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          elmnt.innerHTML = this.responseText;
+        }
       }
-    }
-    xhttp.open("GET", file, true);
-    xhttp.send();
-  }  
-}
-  
+      xhttp.open("GET", file, true);
+      xhttp.send();
+    }  
+  });
+}  
 
