@@ -139,7 +139,7 @@ img {
 }
 .movies {
 	display:inline-block;
-	top: 16;
+	top: 8;
 	left: 8;
 	z-index:10;
 	white-space:nowrap;
@@ -148,6 +148,17 @@ img {
 	transition:background 0.35s ease-in-out;
 	width:auto;
 	
+}
+.home {
+	display:inline-block;
+	top: 8;
+	left: 8;
+	z-index:10;
+	white-space:nowrap;
+	cursor:pointer;
+	border-radius:10px;
+	transition:background 0.35s ease-in-out;
+	width:auto;
 }
 .close-menu {
 	cursor:pointer;
@@ -181,6 +192,9 @@ li:hover {
 	background:rgba(17, 17, 17)
 }
 .movies:hover {
+	background:rgba(17, 17, 17)
+}
+.home:hover {
 	background:rgba(17, 17, 17)
 }
 #media-screen {
