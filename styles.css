@@ -163,7 +163,7 @@ img {
 }
 .close-menu {
 	cursor:pointer;
-	margin:2.5px;
+	margin:2px;
 	transition: transform .35s ease-in-out;
 }
 .menu-head {
