@@ -22,7 +22,7 @@ h1 {
 	font-family:Azonix;
 	font-size:350%;
 	text-align:center;
-	top:16px;
+	top:20px;
 	position:fixed;	
 	cursor:pointer;
 	transition:background 0.35s ease-in-out;
