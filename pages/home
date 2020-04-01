@@ -1,0 +1,38 @@
+ 
+<!DOCTYPE html>
+<html> <!--Check-->
+	<head>
+		<title>The Nebula</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		<link rel="shortcut icon" type="image/ico" href="nebulaman1.ico"/>
+	</head>
+	<body>
+		<div class="navbar">
+		<h3 class="home"><img src="./menu.svg" width="40px"/>Home</h3>
+		<h3 class="open-menu"><img src="./games.png" style="transform:scale(1,1.25);overflow:hidden" width="40px"/>Games</h3>
+		<h3 class="movies"><img src="./movies.png" width="40px"/>Movies</h3>
+		<h1>The Nebula</h1>
+		<img src="nebulaman.png" class="right" width="160px">
+		</div>
+		<div class="overlay">
+			<div style="margin:5px;">
+			<div class="menu-head">
+			<img class="close-menu" src="./close.png" width="39px" alt=""/>
+			</div>
+			<ul id="menu" class="center" align="center">
+            			<li onclick="includeHTML('games/themehotel.html')">Theme Hotel</li>
+				<li onclick="includeHTML('./games/supermarioflash.html')">Super Mario Flash</li>
+				<li onclick="includeHTML('games/happywheels.html')">Happy Wheels</li>
+				<li onclick="includeHTML('games/theimpossiblequiz.html')">The Impossible Quiz</li>
+				<li onclick="includeHTML('games/pacman.html')">Pacman</li>
+        		</ul>
+			</div>
+    		</div>
+		<div id="media-screen" class="center"></div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js" charset="utf-8"></script>
+		<script src="app.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
