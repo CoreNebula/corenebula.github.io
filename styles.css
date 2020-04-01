@@ -25,6 +25,7 @@ h1 {
 	top:16px;
 	position:fixed;	
 	cursor:pointer;
+	transition:background 0.35s ease-in-out;
 }
 h2 {
 	background:linear-gradient(to right, #6613ba, #695eff);
@@ -181,6 +182,9 @@ li:hover {
 	background:rgba(17, 17, 17)
 }
 .movies:hover {
+	background:rgba(17, 17, 17)
+}
+h1:hover {
 	background:rgba(17, 17, 17)
 }
 #media-screen {
