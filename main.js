@@ -30,8 +30,6 @@ function sortList() {
   }
 }
 function includeHTML(file) {
-  location.href = "./index.html"
-  document.addEventListener('DOMContentLoaded', function(){
     var elmnt, xhttp;
     elmnt = document.getElementById("media-screen");
     if (file) {
