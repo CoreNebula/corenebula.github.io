@@ -114,7 +114,7 @@ img {
 	transition:height 0.5s ease-in-out;
 }
 .overlay.open {
-	heigth:100%
+	heigth:100%;
 	opacity: 1;
 	visibility: visible;
 }
