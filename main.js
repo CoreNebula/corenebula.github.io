@@ -29,9 +29,9 @@ function sortList() {
     }
   }
 }
-function includeHTML(fname) {
-  var elmnt, xhttp, file;
-  file = fname;
+function includeHTML(file) {
+  var elmnt, xhttp;
+  location.href = "./index.html"
   elmnt = document.getElementById("media-screen");
   if (file) {
     console.log('check');
