@@ -5,7 +5,7 @@ $(document).ready(function() {
 	includeHTML('corenebula.github.io/pages/home.html');
 	
 	$('.fade-in').ready(function() {
-		$('.fade-in').fadeIn(1000);
+		$('.fade-in').fadeIn(1000, "swing");
 	});
 	
 	$('.open-menu').click(function() {
