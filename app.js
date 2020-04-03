@@ -4,14 +4,13 @@ $(document).ready(function() {
 	
 	includeHTML('corenebula.github.io/pages/home.html');
 	
-	$('.fade-in').fadeIn(1000, "swing");
-	
 	$('.open-menu').click(function() {
 		$('.overlay').addClass('open');
 	});
 
 	$('.close-menu').click(function() {
 		$('.overlay').removeClass('open');
+		$('.fade-in').fadeIn(1000, "swing");
 	});
 	
 	$('li').click(function() {
