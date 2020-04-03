@@ -4,7 +4,7 @@ $(document).ready(function() {
 	
 	includeHTML('corenebula.github.io/pages/home.html');
 	
-	$('.fade-in').load(function {
+	$('.fade-in').load(function() {
 		$('.fade-in').fadeTo(2000, 1, "swing");
 	});
 		
