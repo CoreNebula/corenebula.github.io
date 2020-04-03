@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 	$('.close-menu').click(function() {
 		$('.overlay').removeClass('open');
-		$('.fade-in').fadeIn(1000, "swing");
+		$('.fade-in').fadeTo(1, 1000, "swing");
 	});
 	
 	$('li').click(function() {
