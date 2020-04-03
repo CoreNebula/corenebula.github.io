@@ -207,3 +207,7 @@ li:hover {
 	width:100%;
 	height:auto;
 }
+.fade-in {
+	transition:margin .5 ease-in-out, opacity .35 ease-in-out;
+}
+
