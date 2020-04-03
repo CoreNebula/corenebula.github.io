@@ -4,9 +4,7 @@ $(document).ready(function() {
 	
 	includeHTML('corenebula.github.io/pages/home.html');
 	
-	$('.fade-in').ready(function() {
-		$('.fade-in').fadeToggle(1000, "swing");
-	});
+	$('.fade-in').fadeIn(1000, "swing");
 	
 	$('.open-menu').click(function() {
 		$('.overlay').addClass('open');
