@@ -209,8 +209,6 @@ li:hover {
 }
 .fade-in {
 	margin-top:5;
-}
-.loaded {
-	opacity:1;
+	opacity:0
 }
 
