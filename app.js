@@ -4,7 +4,7 @@ $(document).ready(function() {
 	
 	includeHTML('corenebula.github.io/pages/home.html');
 	
-	$('.fade-in').addClass('loaded');
+	$('.fade-in').marginTop($(this).marginTop + 30).addClass('loaded');
 	
 	$('.open-menu').click(function() {
 		$('.overlay').addClass('open');
