@@ -208,9 +208,7 @@ li:hover {
 	height:auto;
 }
 .fade-in {
-	transition:margin .5 ease-in-out, opacity .35 ease-in-out;
 	margin-top:5;
-	opacity:0;
 }
 .loaded {
 	opacity:1;
