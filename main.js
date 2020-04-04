@@ -44,6 +44,6 @@ function includeHTML(file) {
   }  
 }
 Mousetrap.bind('alt+enter', function(e) {
-  document.querySelector("embed")).requestFullscreen()
+  document.querySelector("embed").requestFullscreen()
 });
 
