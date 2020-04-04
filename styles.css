@@ -24,6 +24,7 @@ h1 {
 	cursor:default;
 	display:inline-block;
 	white-space:nowrap;
+	margin:0px 0px;
 }
 h2 {
 	background:linear-gradient(to right, #6613ba, #695eff);
