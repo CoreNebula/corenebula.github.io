@@ -140,6 +140,7 @@ img {
 	top: 8;
 	left:8;
 	z-index:10;
+	position:relative;
 	white-space:nowrap;
 	cursor:pointer;
 	border-radius:10px;
@@ -151,6 +152,7 @@ img {
 	display:inline-block;
 	top: 8;
 	left: 8;
+	position:relative;
 	z-index:10;
 	white-space:nowrap;
 	cursor:pointer;
@@ -164,6 +166,7 @@ img {
 	top: 8;
 	left: 8;
 	z-index:10;
+	position:relative;
 	white-space:nowrap;
 	cursor:pointer;
 	border-radius:10px;
