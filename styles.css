@@ -57,8 +57,7 @@ div {
 	display:inline-block;
 	float:right;
 	position:relative;
-	top:8;
-	right:25;
+	right:8px;
 }
 .navbar {
 	background:rgba(51, 55, 69);
