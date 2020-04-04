@@ -58,7 +58,7 @@ div {
 	float:right;
 	position:relative;
 	top:8;
-	right:10;
+	right:16;
 }
 .navbar {
 	background:rgba(51, 55, 69);
@@ -132,7 +132,6 @@ img {
 	
 }
 .open-menu {
-	display:inline-block;
 	top: 8;
 	left:8;
 	z-index:10;
@@ -145,7 +144,6 @@ img {
 	
 }
 .movies {
-	display:inline-block;
 	top: 8;
 	left: 8;
 	position:relative;
@@ -158,7 +156,6 @@ img {
 	
 }
 .home {
-	display:inline-block;
 	top: 8;
 	left: 8;
 	z-index:10;
