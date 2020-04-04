@@ -133,6 +133,7 @@ img {
 .open-menu {
 	display:inline-block;
 	top: 8;
+	left:300;
 	z-index:10;
 	white-space:nowrap;
 	cursor:pointer;
