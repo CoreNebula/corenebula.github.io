@@ -43,7 +43,7 @@ function includeHTML(file) {
     xhttp.send();
   }  
 }
-Mousetrap.bind({
-  'alt+enter': function() {document.getElementByTagName('embed').requestFullscreen();}
+Mousetrap.bind('alt+enter', function(e) {
+  document.getElementByTagName('embed').requestFullscreen()
 });
 
