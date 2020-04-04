@@ -71,6 +71,11 @@ div {
 	border-bottom-left-radius:20px;
 	border-bottom-right-radius:20px;
 }
+.navbar-items {
+	position:absolute;
+	top:8;
+	width:auto;
+}
 h3 {
 	text-align:left;
 	font-family:Montserrat;
@@ -78,7 +83,6 @@ h3 {
 	color:lightgray;
 	margin:0px 0px;
 	padding:5px;
-	position:relative;
 }
 li {
 	font-family:Montserrat;
@@ -134,7 +138,7 @@ img {
 .open-menu {
 	display:inline-block;
 	top: 8;
-	left:300;
+	left:8;
 	z-index:10;
 	white-space:nowrap;
 	cursor:pointer;
