@@ -132,6 +132,7 @@ img {
 	
 }
 .open-menu {
+	display:block;
 	top: 8;
 	left:8;
 	z-index:10;
@@ -144,6 +145,7 @@ img {
 	
 }
 .movies {
+	display:inline;
 	top: 8;
 	left: 8;
 	position:relative;
@@ -156,6 +158,7 @@ img {
 	
 }
 .home {
+	display:inline-block
 	top: 8;
 	left: 8;
 	z-index:10;
