@@ -69,6 +69,7 @@ div {
 	top:0;
 	left:0;
 	text-align:top;
+	vertical-align:middle;
 	border-bottom-left-radius:20px;
 	border-bottom-right-radius:20px;
 }
