@@ -24,7 +24,7 @@ h1 {
 	cursor:default;
 	display:inline-block;
 	white-space:nowrap;
-	position:fixed;
+	position:relative;
 	top:8;
 	margin:0px 0px;
 }
