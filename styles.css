@@ -58,7 +58,7 @@ div {
 	float:right;
 	position:relative;
 	top:8;
-	right:8;
+	right:10;
 }
 .navbar {
 	background:rgba(51, 55, 69);
@@ -68,13 +68,9 @@ div {
 	position:fixed;
 	top:0;
 	left:0;
+	text-align:top;
 	border-bottom-left-radius:20px;
 	border-bottom-right-radius:20px;
-}
-.navbar-items {
-	position:absolute;
-	top:8;
-	width:auto;
 }
 h3 {
 	text-align:left;
