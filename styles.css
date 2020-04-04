@@ -132,9 +132,10 @@ img {
 	
 }
 .open-menu {
-	display:block;
+	display:inline-block;
 	top: 8;
 	left:8;
+	margin:0px 0px;
 	z-index:10;
 	position:relative;
 	white-space:nowrap;
@@ -145,9 +146,10 @@ img {
 	
 }
 .movies {
-	display:inline;
+	display:inline-block;
 	top: 8;
 	left: 8;
+	margin:0px 0px;
 	position:relative;
 	z-index:10;
 	white-space:nowrap;
@@ -162,6 +164,7 @@ img {
 	top: 8;
 	left: 8;
 	z-index:10;
+	margin:0px 0px;
 	position:relative;
 	white-space:nowrap;
 	cursor:pointer;
@@ -214,7 +217,7 @@ li:hover {
 	height:auto;
 }
 .fade-in {
-	margin-top:5;
+	margin-top:5px;
 	opacity:0
 }
 
