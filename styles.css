@@ -21,8 +21,7 @@ h1 {
 	-webkit-text-fill-color:transparent;
 	font-family:Azonix;
 	font-size:350%;
-	text-align:center;
-	top:8;
+	top:0;
 	position:fixed;	
 	cursor:default;
 	display:inline-block;
