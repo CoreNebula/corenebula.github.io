@@ -73,6 +73,22 @@ div {
 	border-bottom-left-radius:20px;
 	border-bottom-right-radius:20px;
 }
+.navbar-items {
+	display:inline-block;
+	top: 8px;
+	left: 0px;
+	margin:0px 0px;
+	position:fixed;
+	z-index:10;
+	white-space:nowrap;
+	cursor:pointer;
+	border-radius:10px;
+	transition:background 0.35s ease-in-out;
+	width:auto;
+}
+.navbar-items:hover {
+	background:rgba(17, 17, 17)
+}
 h3 {
 	text-align:left;
 	font-family:Montserrat;
@@ -132,47 +148,6 @@ img {
 	text-align:center;
 	
 }
-.open-menu {
-	display:inline-block;
-	top: 8;
-	left:8;
-	margin:0px 0px;
-	z-index:10;
-	position:relative;
-	white-space:nowrap;
-	cursor:pointer;
-	border-radius:10px;
-	transition:background 0.35s ease-in-out;
-	width:auto;
-	
-}
-.movies {
-	display:inline-block;
-	top: 8;
-	left: 8;
-	margin:0px 0px;
-	position:relative;
-	z-index:10;
-	white-space:nowrap;
-	cursor:pointer;
-	border-radius:10px;
-	transition:background 0.35s ease-in-out;
-	width:auto;
-	
-}
-.home {
-	display:inline-block;
-	top: 8;
-	left: 8;
-	z-index:10;
-	margin:0px 0px;
-	position:relative;
-	white-space:nowrap;
-	cursor:pointer;
-	border-radius:10px;
-	transition:background 0.35s ease-in-out;
-	width:auto;
-}
 .close-menu {
 	cursor:pointer;
 	margin-top:2px;
@@ -201,15 +176,6 @@ li:hover {
 }
 .close-menu:hover {
 	transform:scale(1.3)
-}
-.open-menu:hover {
-	background:rgba(17, 17, 17)
-}
-.movies:hover {
-	background:rgba(17, 17, 17)
-}
-.home:hover {
-	background:rgba(17, 17, 17)
 }
 #media-screen {
 	position:relative;
