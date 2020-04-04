@@ -25,6 +25,8 @@ h1 {
 	top:25px;
 	position:fixed;	
 	cursor:default;
+	display:inline-block;
+	white-space:nowrap;
 }
 h2 {
 	background:linear-gradient(to right, #6613ba, #695eff);
