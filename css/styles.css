@@ -183,7 +183,10 @@ li:hover {
 	height:auto;
 }
 .fade-in {
-	margin-top:5px;
-	opacity:0
+	opacity:0;
+	transition: opacity .5 ease-in-out, transform .5 ease-in-out;
 }
-
+.fade-in.in {
+	transform: translateY(-20px);
+	opacity:1;
+}
