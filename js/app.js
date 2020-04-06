@@ -10,7 +10,6 @@ $(document).ready(function() {
 
 	$('.close-menu').click(function() {
 		$('.overlay').removeClass('open');
-		$('.fade-in').fadeTo(2000, 1, "swing").addClass("loaded");
 	});
 	
 	$('li').click(function() {
