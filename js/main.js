@@ -48,7 +48,7 @@ Mousetrap.bind('alt+enter', function(e) {
 });
 
 function fadeIn() {
-  var i, elmnts;
+  /*var i, elmnts;
   elmnts = getElementsByClassName('fade-in');
   for (i=0; i < (elmnts.length - 1); i++) {
     if ((this.offsetHeight + this.offsetTop) < (window.offsetHeight + window.offsetTop)) {
@@ -58,5 +58,5 @@ function fadeIn() {
       this.removeClass('in')
     }
   }
-}
+}*/
   
