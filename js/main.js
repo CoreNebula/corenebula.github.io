@@ -47,8 +47,8 @@ Mousetrap.bind('alt+enter', function(e) {
   document.querySelector("embed").requestFullscreen()
 });
 
-function fadeIn() {
-  /*var i, elmnts;
+/*function fadeIn() {
+  var i, elmnts;
   elmnts = getElementsByClassName('fade-in');
   for (i=0; i < (elmnts.length - 1); i++) {
     if ((this.offsetHeight + this.offsetTop) < (window.offsetHeight + window.offsetTop)) {
