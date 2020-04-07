@@ -48,7 +48,7 @@ Mousetrap.bind('alt+enter', function(e) {
 });
 function fadeIn() {
   	var i, z, elmnt, elmntTop, elemntBttm;
-	z = docoment.getElementsByClass('fade-in');
+	z = document.getElementsByClass('fade-in');
 	for (i=0;i < (z.length - 1);i++) {
 		elmnt = z[i];
 		if ((elmnt.offsetTop < window.innerHeight)&&(elmnt.offsetTop > 60)) {
