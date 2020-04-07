@@ -184,7 +184,7 @@ li:hover {
 }
 .fade-in {
 	opacity:0;
-	transition: opacity .5 ease-in-out, transform .5 ease-in-out;
+	transition: opacity .5s ease-in-out, transform .5s ease-in-out;
 }
 .fade-in.in {
 	transform: translateY(-20px);
