@@ -26,7 +26,7 @@ function sortList() {
       and mark the switch as done: */
       b[i].parentNode.insertBefore(b[i + 1], b[i]);
       switching = true;
-    }
+   	}
   }
 }
 function includeHTML(file) {
@@ -47,15 +47,15 @@ Mousetrap.bind('alt+enter', function(e) {
   document.querySelector("embed").requestFullscreen()
 });
 function fadeIn() {
-  var i, z, elmnt, elmntTop, elemntBttm;
+  	var i, z, elmnt, elmntTop, elemntBttm;
 	z = docoment.getElementsByClass('fade-in');
 	for (i=0;i < (z.length - 1);i++) {
 		elmnt = z[i];
 		if ((elmnt.offsetTop < window.innerHeight)&&(elmnt.offsetTop > 60)) {
-			$(elmnt).addClass('in');
+			elmnt.classList.add('in');
 		}
 		else {
-			$(elmnt).removeClass('in');
+			elmnt.classList.remove('in');
 		}
 	}
 }
