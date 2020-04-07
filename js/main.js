@@ -46,5 +46,16 @@ function includeHTML(file) {
 Mousetrap.bind('alt+enter', function(e) {
   document.querySelector("embed").requestFullscreen()
 });
-
-  
+function fadeIn() {
+  var i, z, elmnt, elmntTop, elemntBttm;
+	z = docoment.getElementsByClass('fade-in');
+	for (i=0;i < (z.length - 1);i++) {
+		elmnt = z[i];
+		if ((elmnt.offsetTop < window.innerHeight)&&(elmnt.offsetTop > 60)) {
+			$(elmnt).addClass('in');
+		}
+		else {
+			$(elmnt).removeClass('in');
+		}
+	}
+}
