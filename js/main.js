@@ -51,7 +51,7 @@ function fadeIn() {
 	z = document.getElementsByClassName('fade-in');
 	for (i=0;i < (z.length - 1);i++) {
 		elmnt = z[i];
-		console.log(got here);
+		console.log('got here');
 		if ((elmnt.offsetTop < window.innerHeight)&&(elmnt.offsetTop > 60)) {
 			elmnt.classList.add('in');
 		}
