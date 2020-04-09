@@ -41,6 +41,7 @@ function includeHTML(file) {
     }
     xhttp.open("GET", file, true);
     xhttp.send();
+		build_miniclip_game();
   }  
 }
 Mousetrap.bind('alt+enter', function(e) {
